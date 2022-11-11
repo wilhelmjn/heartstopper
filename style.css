@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Pacifico&family=Roboto+Condensed:ital,wght@1,300&display=swap');
+*{
+    margin: 1px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gloria Hallelujah';
+}
+body{
+    background-color: rgb(255,255,95);
+    background-image: linear-gradient(to bottom, palevioletred, rgb(51,255,255), palevioletred);
+    
+}
+header{
+    height: 60px;
+    background-color: rgb(51,255,255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    box-shadow: 0 0 1rem black;
+}
+.cab{
+    font-family: 'Gloria Hallelujah';
+    color: palevioletred;
+    text-align: center;
+}
+h1{
+    font-family: 'Gloria Hallelujah';
+    color: palevioletred;
+   
+}
+
+.nick{
+    position: relative;
+    left: 11%;
+}
+.fig1{
+    position: relative;
+}
+h2{
+    font-family: 'Gloria Hallelujah';
+    color: palevioletred;
+    font-size: 50px;
+}
+.alice{
+    font-family: 'Gloria Hallelujah';
+    color: black;
+}
+.sin{
+    position: relative;
+    left: 43%;
+    bottom: 15%;
+}
+.netflix{
+    font-family: 'Gloria Hallelujah';
+    color: black;
+}
+.assistir{
+    font-family: 'Gloria Hallelujah';
+    color: black;
+}
+.lado{
+    display: flex;
+    align-items: center;
+}
+.footer{
+    height: 100%;
+    background-color: rgb(51,255,255);
+    font-family: 'Gloria Hallelujah';
+    box-shadow: 0 0 1rem black;
+}
+.container{
+    width: 100%;
+    height: 30vh;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: space-between; 
+    padding: 0px 30px;
+}
